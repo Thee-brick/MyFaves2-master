@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36F158161F6703FA002E3E31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F158151F6703FA002E3E31 /* AppDelegate.swift */; };
+		36F158181F6703FA002E3E31 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F158171F6703FA002E3E31 /* MasterViewController.swift */; };
+		36F1581A1F6703FA002E3E31 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F158191F6703FA002E3E31 /* DetailViewController.swift */; };
+		36F1581D1F6703FA002E3E31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F1581B1F6703FA002E3E31 /* Main.storyboard */; };
+		36F1581F1F6703FA002E3E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36F1581E1F6703FA002E3E31 /* Assets.xcassets */; };
+		36F158221F6703FA002E3E31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F158201F6703FA002E3E31 /* LaunchScreen.storyboard */; };
+		9059FA181FD5E0CD00C1A183 /* Blog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9059FA171FD5E0CD00C1A183 /* Blog.jpg */; };
+		9059FA1A1FD5E27800C1A183 /* Juice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9059FA191FD5E27800C1A183 /* Juice.jpg */; };
+		9059FA1C1FD5E44B00C1A183 /* Delivery.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9059FA1B1FD5E44B00C1A183 /* Delivery.jpg */; };
+		9059FA1E1FD5E52A00C1A183 /* About.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9059FA1D1FD5E52A00C1A183 /* About.jpg */; };
+		9059FA201FD5E57E00C1A183 /* Contact.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9059FA1F1FD5E57E00C1A183 /* Contact.jpg */; };
+		9059FA221FD5E5BD00C1A183 /* Info.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9059FA211FD5E5BD00C1A183 /* Info.jpg */; };
+		9059FA241FD5E62900C1A183 /* Mod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9059FA231FD5E62900C1A183 /* Mod.jpg */; };
+		907264191FCCED5E00207646 /* home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 907264181FCCED5E00207646 /* home.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36F158121F6703FA002E3E31 /* MarcosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarcosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36F158151F6703FA002E3E31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36F158171F6703FA002E3E31 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		36F158191F6703FA002E3E31 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		36F1581C1F6703FA002E3E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36F1581E1F6703FA002E3E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36F158211F6703FA002E3E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36F158231F6703FA002E3E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9059FA171FD5E0CD00C1A183 /* Blog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Blog.jpg; sourceTree = "<group>"; };
+		9059FA191FD5E27800C1A183 /* Juice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Juice.jpg; sourceTree = "<group>"; };
+		9059FA1B1FD5E44B00C1A183 /* Delivery.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Delivery.jpg; sourceTree = "<group>"; };
+		9059FA1D1FD5E52A00C1A183 /* About.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = About.jpg; sourceTree = "<group>"; };
+		9059FA1F1FD5E57E00C1A183 /* Contact.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Contact.jpg; sourceTree = "<group>"; };
+		9059FA211FD5E5BD00C1A183 /* Info.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Info.jpg; sourceTree = "<group>"; };
+		9059FA231FD5E62900C1A183 /* Mod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mod.jpg; sourceTree = "<group>"; };
+		907264181FCCED5E00207646 /* home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36F1580F1F6703FA002E3E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36F158091F6703FA002E3E31 = {
+			isa = PBXGroup;
+			children = (
+				90CC40D61FCCDB95008A528A /* images */,
+				36F158141F6703FA002E3E31 /* MyFaves2 */,
+				36F158131F6703FA002E3E31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36F158131F6703FA002E3E31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36F158121F6703FA002E3E31 /* MarcosApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36F158141F6703FA002E3E31 /* MyFaves2 */ = {
+			isa = PBXGroup;
+			children = (
+				36F158151F6703FA002E3E31 /* AppDelegate.swift */,
+				36F158171F6703FA002E3E31 /* MasterViewController.swift */,
+				36F158191F6703FA002E3E31 /* DetailViewController.swift */,
+				36F1581B1F6703FA002E3E31 /* Main.storyboard */,
+				36F1581E1F6703FA002E3E31 /* Assets.xcassets */,
+				36F158201F6703FA002E3E31 /* LaunchScreen.storyboard */,
+				36F158231F6703FA002E3E31 /* Info.plist */,
+			);
+			path = MyFaves2;
+			sourceTree = "<group>";
+		};
+		90CC40D61FCCDB95008A528A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				907264181FCCED5E00207646 /* home.jpg */,
+				9059FA171FD5E0CD00C1A183 /* Blog.jpg */,
+				9059FA191FD5E27800C1A183 /* Juice.jpg */,
+				9059FA1B1FD5E44B00C1A183 /* Delivery.jpg */,
+				9059FA1D1FD5E52A00C1A183 /* About.jpg */,
+				9059FA1F1FD5E57E00C1A183 /* Contact.jpg */,
+				9059FA211FD5E5BD00C1A183 /* Info.jpg */,
+				9059FA231FD5E62900C1A183 /* Mod.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36F158111F6703FA002E3E31 /* MarcosApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36F158261F6703FA002E3E31 /* Build configuration list for PBXNativeTarget "MarcosApp" */;
+			buildPhases = (
+				36F1580E1F6703FA002E3E31 /* Sources */,
+				36F1580F1F6703FA002E3E31 /* Frameworks */,
+				36F158101F6703FA002E3E31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarcosApp;
+			productName = MyFaves2;
+			productReference = 36F158121F6703FA002E3E31 /* MarcosApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36F1580A1F6703FA002E3E31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = RockValleyCollege;
+				TargetAttributes = {
+					36F158111F6703FA002E3E31 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LAK6SGQ7Q5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 36F1580D1F6703FA002E3E31 /* Build configuration list for PBXProject "MarcosApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36F158091F6703FA002E3E31;
+			productRefGroup = 36F158131F6703FA002E3E31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36F158111F6703FA002E3E31 /* MarcosApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36F158101F6703FA002E3E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907264191FCCED5E00207646 /* home.jpg in Resources */,
+				36F158221F6703FA002E3E31 /* LaunchScreen.storyboard in Resources */,
+				9059FA1C1FD5E44B00C1A183 /* Delivery.jpg in Resources */,
+				9059FA201FD5E57E00C1A183 /* Contact.jpg in Resources */,
+				9059FA241FD5E62900C1A183 /* Mod.jpg in Resources */,
+				9059FA1E1FD5E52A00C1A183 /* About.jpg in Resources */,
+				9059FA181FD5E0CD00C1A183 /* Blog.jpg in Resources */,
+				36F1581F1F6703FA002E3E31 /* Assets.xcassets in Resources */,
+				9059FA221FD5E5BD00C1A183 /* Info.jpg in Resources */,
+				9059FA1A1FD5E27800C1A183 /* Juice.jpg in Resources */,
+				36F1581D1F6703FA002E3E31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36F1580E1F6703FA002E3E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F1581A1F6703FA002E3E31 /* DetailViewController.swift in Sources */,
+				36F158181F6703FA002E3E31 /* MasterViewController.swift in Sources */,
+				36F158161F6703FA002E3E31 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		36F1581B1F6703FA002E3E31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36F1581C1F6703FA002E3E31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36F158201F6703FA002E3E31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36F158211F6703FA002E3E31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36F158241F6703FA002E3E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36F158251F6703FA002E3E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36F158271F6703FA002E3E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				DEVELOPMENT_TEAM = LAK6SGQ7Q5;
+				INFOPLIST_FILE = MyFaves2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.RockValleyCollege.MarcosApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		36F158281F6703FA002E3E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				DEVELOPMENT_TEAM = LAK6SGQ7Q5;
+				INFOPLIST_FILE = MyFaves2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.RockValleyCollege.MarcosApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36F1580D1F6703FA002E3E31 /* Build configuration list for PBXProject "MarcosApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36F158241F6703FA002E3E31 /* Debug */,
+				36F158251F6703FA002E3E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36F158261F6703FA002E3E31 /* Build configuration list for PBXNativeTarget "MarcosApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36F158271F6703FA002E3E31 /* Debug */,
+				36F158281F6703FA002E3E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36F1580A1F6703FA002E3E31 /* Project object */;
+}
